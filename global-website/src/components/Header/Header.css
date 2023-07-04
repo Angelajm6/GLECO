@@ -5,14 +5,35 @@
 }
 
 .app_header h1 {
-    font-size: 80px;
+    font-size: 90px;
+    font-weight: 500;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     color: white;
     text-align: center;
+    margin-top: 50px;
     transform: translate(-50%, -50%);
 }
+
+.app_header h2 {
+    font-size: 50px;
+    font-weight: 200;
+    margin-top: 150px;
+    color: rgb(136, 126, 126);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.global, .global_2 {
+    white-space: nowrap; /* Prevents the text from wrapping */
+    overflow: hidden; /* Hides any overflowing text */
+    text-overflow: ellipsis; /* Adds an ellipsis at the end of the line */
+  }
+  
 
 @keyframes fade-in {
     from {
@@ -23,15 +44,15 @@
     }
   }
   
-  .global {
+  .global_2 {
     animation: fade-in 2s ease-in;
   }
+
+
 
 .header_img img{
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    filter: brightness (25%);
 }
-
