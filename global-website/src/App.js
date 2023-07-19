@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from './components/Navbar/Navbar';
 import Header from './components/Header/Header';
 import AboutUs from './components/AboutUs/AboutUs';
-// import Intro from './components/Intro';
+import Products from './components/Products/Products';
 // import Footer from './components/Footer';
 
 
@@ -13,8 +13,8 @@ function App () {
     <Navbar />
     <Header />
     <AboutUs />
-    {/* <Intro />
-    <Footer />  */}
+    <Products />
+    {/* <Footer /> */}
   </div>
   );
 }
